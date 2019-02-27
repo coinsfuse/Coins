@@ -1,0 +1,15 @@
+{
+    "name": "coinsfuse/coins",
+    "description": "Implementation of raw transactions in bitcoin, zcash, HD wallets, Electrum wallets, and other crypto wallets.",
+    "keywords": ["bitcoin", "php", "bip32", "electrum", "ecc", "transactions", "HD wallet","btc", "cryptocurrency", "zcash"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "CoinsFuse\\Coins\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.1",
+        "guzzlehttp/guzzle": "~6.0"
+    }
+}
