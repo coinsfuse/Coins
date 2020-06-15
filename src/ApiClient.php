@@ -4,7 +4,7 @@ namespace CoinsFuse\Coins;
 
 use GuzzleHttp\Client;
 
-class CoinBackend
+class ApiClient
 {
     // Configuration options
 
